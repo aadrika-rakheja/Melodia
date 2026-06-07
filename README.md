@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Melodia – Cloud Music & Smart Playlist Companion
 
 Melodia is a cloud-based premium music streaming platform inspired by Spotify and SoundCloud. This repository contains the complete full-stack implementation, styled precisely according to the Stitch design specifications.
@@ -108,3 +109,6 @@ To access the **Admin Dashboard** (`/admin`) for uploading new songs:
 2. The *very first* account registered in the database is automatically granted the `admin` role.
 3. Once logged in as an admin, a link to the **Admin Panel** will appear at the bottom left of your sidebar.
 4. You can use the form to enter track details (e.g. titles, artists, genres) along with audio URLs (from Firebase or royal-free static files).
+=======
+# Melodia
+>>>>>>> 5c546d529ae100708f06543218fd4dd0ef7acb58
