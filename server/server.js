@@ -21,11 +21,12 @@ const app = express();
 
 // Global Middlewares
 app.use(cors({
-  origin: process.env.CLIENT_ORIGIN || 'http://localhost:5173',
+  origin: [
+    "https://melodia-lime.vercel.app"
+  ],
   credentials: true
 }));
 app.use(express.json());
-
 // API Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/songs', songRoutes);
